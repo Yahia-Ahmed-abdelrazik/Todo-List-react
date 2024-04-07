@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8758ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: .5rem;
+    font-size: 1.75rem;
+}
+
+.todoWrapper {
+    background-color: #1a1a40;
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 9px;
+}
+
+.todoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.todoInput {
+    outline: none;
+    background: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #8758ff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: white;
+
+    &::-webkit-input-placeholder {
+        color: #ffffff6c;
+    }
+}
+
+.todo-btn {
+    padding: 0.55rem;
+    background-color: #8758ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8758ff;
+    color: white;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.trashicno{
+    margin-left: .7rem;
+}
+.completed{
+    color: #c5b6ec;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.incompleted{
+    cursor: pointer;
+    color: white;
+}
+
+.i-icons{
+    cursor: pointer;
+}
